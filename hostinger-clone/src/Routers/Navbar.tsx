@@ -24,8 +24,8 @@ export default function Navbar() {
   return (
     <Box 
       position={'fixed'} 
-      zIndex={2} w={'100%'} 
-      boxShadow= {scrolled ? "rgba(0, 0, 0, 0.15) 0px 25px 20px -20px" : "none" }
+      zIndex={4} w={'100%'} 
+      boxShadow= {scrolled ? "rgba(0, 0, 0, 0.20) 0px 25px 20px -20px" : "none" }
     >
       <Flex
         bg={'#1857ab'}

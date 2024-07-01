@@ -1,0 +1,60 @@
+.topContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: #1857ab;
+}
+
+.firstChild{
+    width: 50%;
+    min-height: 100vh;
+    /* border: 1px solid red; */
+    font-family: inherit;
+    z-index: 2;
+    color: #fff;
+}
+
+.secondChild{
+    width: 50%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.handImageContainer{
+    display: none;
+    z-index: 1;
+    width: 50%;
+    margin-top: 10%;
+    height: 60vh;
+    background-color: #1857ab;
+    /* border: 1px solid red; */
+}
+
+
+/* -------------------------------------------------poster---------------------------------- */
+.poster{
+    border: 1px solid black;
+    min-height: 100vh;
+}
+
+
+@media (max-width: 1024px) {
+    .topContainer{
+        min-height: 50vh;
+    }
+    .firstChild{
+        width: 100%;
+        min-height: 50vh;
+        margin-right: -50%;
+        margin-right: -20%;
+        padding-bottom: 15%;
+    }
+    .secondChild{
+        display: none;
+    }
+    .handImageContainer{
+        display: block;
+    }
+   
+}
