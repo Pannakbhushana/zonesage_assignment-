@@ -32,9 +32,37 @@
 }
 
 
-/* -------------------------------------------------poster---------------------------------- */
+/* -------------------------------------------------poster---------------------------------------------- */
 .poster{
+    color: #1857ab;
+}
+
+.midContiner{
+    width: 60%;
+    margin-left: 20%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10%;  
+}
+
+
+/* ---------------------------------------------------------our Approach------------------------------------- */
+.ourApproach{
     border: 1px solid black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.ourApproachCh1{
+    border: 1px solid black;
+    width: 50%;
+    min-height: 100vh;
+}
+.ourApproachCh1{
+    border: 1px solid black;
+    width: 50%;
     min-height: 100vh;
 }
 
@@ -55,6 +83,13 @@
     }
     .handImageContainer{
         display: block;
+    }
+
+    
+    .midContiner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 20%;
     }
    
 }
