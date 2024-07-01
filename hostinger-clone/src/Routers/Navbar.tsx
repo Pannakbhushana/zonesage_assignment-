@@ -1,11 +1,32 @@
-import {Box,Flex,Text,IconButton,Stack,Collapse,Icon,Popover,PopoverTrigger,PopoverContent,useColorModeValue,useBreakpointValue,useDisclosure} from '@chakra-ui/react'
+import {Box,Flex,Text,Stack,Collapse,Icon,Popover,PopoverTrigger,PopoverContent,useColorModeValue,useBreakpointValue,useDisclosure} from '@chakra-ui/react'
 import {HamburgerIcon,CloseIcon,ChevronDownIcon,ChevronRightIcon} from '@chakra-ui/icons'
+import { useEffect, useState } from 'react';
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
+  const [scrolled, setScrolled] = useState<boolean>(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <Box>
+    <Box 
+      position={'fixed'} 
+      zIndex={2} w={'100%'} 
+      boxShadow= {scrolled ? "rgba(0, 0, 0, 0.15) 0px 25px 20px -20px" : "none" }
+    >
       <Flex
         bg={'#1857ab'}
         color={'#FAF9F6'}
