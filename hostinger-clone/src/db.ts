@@ -9,6 +9,12 @@ interface MidDataItem {
     des: string;
 }
 
+interface OurApproachItem {
+    num: number;
+    title: string;
+    des: string;
+}
+
 const benefitData: BenefitItem[] = [
     {
         image: 'https://assets.zyrosite.com/lilofn1qx/icon5-AMqzRXDGDPskeNGE.svg',
@@ -66,4 +72,27 @@ const midData: MidDataItem[] = [
     },
 ];
 
-export {benefitData,benefitData2,midData}
+const ourApproachData: OurApproachItem[] = [
+    {
+        num:1,
+        title: 'Business Challenge Review',
+        des: "We help you realize the biggest challenges you're facing."
+    },
+    {
+        num:2,
+        title: 'Data Collection and Preparation',
+        des: "Together, we'll collect and format all the relevant data."
+    },
+    {
+        num:3,
+        title: 'Data Analysis',
+        des: "We dive deep into the data, and aim to understand the underlying why."
+    },
+    {
+        num:4,
+        title: 'Business Implementation',
+        des: "Implementation often happens in phases paired with vigorous testing."
+    },
+];
+
+export {benefitData,benefitData2,midData,ourApproachData}

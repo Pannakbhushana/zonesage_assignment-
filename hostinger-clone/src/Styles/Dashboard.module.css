@@ -48,7 +48,7 @@
 
 /* ---------------------------------------------------------our Approach------------------------------------- */
 .ourApproach{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -108,7 +108,58 @@
 
 
 
+/* ---------------------------------------------------------Footer--------------------------------------------------- */
 
+.footer{
+    border: 2px solid #1857ab;
+    width: 100%;
+    min-height: 35vh;
+    background-color: #1857ab;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 20%;
+    margin-top: 12%;
+}
+
+.footerLogo{
+    width: 100px;
+    height: 80px;
+}
+
+.footerCh2{
+    display: flex;
+}
+
+.footerContent{
+    width: 200px;
+    height: 100px;
+}
+
+/* ---------------------------------------------------------Helped Company-------------------------------------- */
+
+.company{
+    width: 100%;
+    min-height: 40vh;
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.companyContainer{
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.companyLogo{
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -163,10 +214,26 @@
         margin-left: 20%;
     }
 
+    .companyContainer{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contactCh1{
         width: 360px;
         padding: 20px;
     }
     
+
+    .footerContainer{
+        display: block;   
+        width: 60%;
+    }
+
+    .footerCh2{
+        display: block;
+    }
    
 }
