@@ -49,21 +49,21 @@
 
 /* ---------------------------------------------------------our Approach------------------------------------- */
 .ourApproach{
-    border: 1px solid black;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
+  border: 1px solid black;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-color: #1857ab;
 }
 
 .ourApproachCh1{
-    border: 1px solid black;
     width: 50%;
-    min-height: 100vh;
+    min-height: 100vh ;
 }
-.ourApproachCh1{
-    border: 1px solid black;
+.ourApproachCh2{
     width: 50%;
-    min-height: 100vh;
+    min-height: 100vh ;
+    
 }
 
 
@@ -89,6 +89,18 @@
     .midContiner{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-left: 20%;
+    }
+    .ourApproach{
+        display: block;
+    }
+    .ourApproachCh1{
+        width: 60%;
+        margin-left: 20%;
+        min-height: 60vh;
+    }
+    .ourApproachCh2{
+        width: 60%;
         margin-left: 20%;
     }
    

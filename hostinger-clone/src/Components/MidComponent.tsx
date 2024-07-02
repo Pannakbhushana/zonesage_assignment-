@@ -5,7 +5,7 @@ const MidComponent = ({image,title,des}:{image:string,title:string,des:string}) 
             <Box w={'150px'} h={'100px'}  ml={['10%','25%','25%']}>
                 <img src={image} alt="image" />
             </Box>
-            <Box w={'150px'}  ml={['10%','25%','25%']}>
+            <Box w={'170px'}  ml={['10%','25%','25%']}>
                 <Text as={'b'} fontSize={'xl'} color={'#1857a6'}>{title}</Text>
             </Box>
             <br />

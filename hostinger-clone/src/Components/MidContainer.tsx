@@ -41,7 +41,7 @@ const MidContainer: React.FC = () => {
                 ))}
             </Box>
 
-            <Box  w={'100%'} minH={"100px"}>
+            <Box  w={'100%'} minH={"100px"} mb={'10%'}>
                 <Text as={'b'} fontSize={'2xl'} color={'#1857a6'}>Let us help you</Text><br/>
                 <Button
                     mt={'1%'}
@@ -55,7 +55,7 @@ const MidContainer: React.FC = () => {
                     Contact us
                 </Button>
             </Box>
-            <br />
+            
         </Box>
     );
 };
