@@ -37,6 +37,8 @@ const OurApproach = () => {
         <Box className={Styles.ourApproachCh1}>
            
             <Box zIndex={2} w={'100%'}>
+            <br />
+            <br />
                 <Box display={{ lg: 'none' }} >
                     <Text 
                         fontSize={['4xl','4xl','6xl']} 
@@ -58,6 +60,9 @@ const OurApproach = () => {
 
         <Box className={Styles.ourApproachCh2}>
             <Box display={['none','none','none','block']} >
+            <br />
+            <br />
+            <br />
                         <Text 
                             fontSize={['4xl','4xl','6xl']} 
                             as={'b'} color={'#fff'}>Our <span style={{ color: "#ff9935" }}
@@ -68,7 +73,9 @@ const OurApproach = () => {
             {ourApproachData.map((item, index) => (
                     <OurApprochComponent key={index} num={item.num} title={item.title} des={item.des} />
                 ))}
-            
+            <br />
+            <br />
+            <br />
         </Box>
     </Box>
 }
