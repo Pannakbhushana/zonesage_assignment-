@@ -111,7 +111,9 @@
 /* ---------------------------------------------------------Footer--------------------------------------------------- */
 
 .footer{
-    border: 2px solid #1857ab;
+    /* border: 2px solid #1857ab; */
+    /* border: 1px solid red; */
+    padding-top: 12%;
     width: 100%;
     min-height: 35vh;
     background-color: #1857ab;
@@ -122,7 +124,9 @@
     justify-content: space-between;
     width: 80%;
     height: 20%;
-    margin-top: 12%;
+    background-color: #1857ab;
+    /* margin-top: 12%; */
+    
 }
 
 .footerLogo{

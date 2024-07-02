@@ -4,7 +4,7 @@ import FormElement from './FormElement';
 
 
 const Contact = () => {
-    return <Box className={Styles.contact}>
+    return <Box className={Styles.contact} pb={'5%'}>
 
         <Box className={Styles.contactCh1} mt={'5%'}>
             <Box  h={'80px'} w={'60px'} mb={'10%'} display={{lg:'none'}}>

@@ -3,7 +3,7 @@ import Styles from "../Styles/Dashboard.module.css";
 
 
 const Footer = () => {
-    return <Box className={Styles.footer}>
+    return <Box className={Styles.footer} mt={'-2%'}>
         <Box className={Styles.footerContainer} ml={['10%','15%','32%','10%']}>
             <Box className={Styles.footerLogo}>
                 <Flex flex={{ base: 1 }} justify={{ base: 'start', md: 'start' }}>
